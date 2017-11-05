@@ -1,8 +1,5 @@
 language: go
 go:
 - tip
-before_install: go get "github.com/gin-gonic/gin"
-script: 
-env:
-  global:
-  - secure: "UDxGXe2OcFGJDf4sKNUrPoDIQz97B+dGyhA9+REll+XCr+KkcmrSfapViiMDe6NKV5EFd1JzWr6lMJOKWUaGKSyvtPL8lComlJyVKLK+7l8/9nKeMFmE+926h3I4BzuKM0jTKWUlK7Zui6FDtyUoFJa/oVmdmRvnGydxAeljbQIR2Cdg1WWMW9Nz4Pp4fwV8aSa8qAevymTy/cxY47m0+C9laIhTYJBPFZxWHoRj3k+ZUWkZsVR1HCp6VSbUwzKa+tPTbQjIe6LWG8b1QL6xeuDIC1VWSnc72E3GJN7hsqwEnTq7e/hrDYQJguEZx9S2wqB+XnDeYC/1FV3VpQuGsJomwiVmVJ8neGT1GZzpePogCw8o+hwZj2BiNVFysKBpzfmXJ8nEJbIGIieaz+EVLrMRhrZUWzY/qYuPD8LSeedVULAJ4jju9qRBwp27u0vq2sDGWHVp5Gm+/FY/L52Q+TbAk+A/G7WV1sL48eC0ZeMPYlcm/hysDFoXNmolVnc8/vX+zf/kMtJOAs4V1C3z/wnVVRY20HhLnriIyPoY5MSM4/vgHtD3LRWIpx0BF262FrxgbmtXDGwfxj1dlz1r2aCQepYzylTGoc7hP+yosj71cSXM0aGrBo/uhfhhBMzala+SKDd1QkiNMV7UgocnJAshx13KlS5A2b11zaLJHEM="
+before_install: go get "github.com/gin-gonic/gin" 
+  

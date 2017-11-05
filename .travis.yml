@@ -11,5 +11,7 @@ env:
 before_install:
   
   go get "github.com/gin-gonic/gin"
+  go get "github.com/glechelon/4games4arts/data"
+	go get "github.com/glechelon/4games4arts/handlers"
 
 script:

@@ -4,6 +4,7 @@ go:
   - 1.8
   - 1.9
   - tip
+go_import_path: github.com/4games4arts
 
 
 env:

@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/gin-gonic/gin"
-	"github.com/glechelon/4games4arts/data"
-	"github.com/glechelon/4games4arts/handlers"
+	"github.com/glechelon/4games4arts-backend/data"
+	"github.com/glechelon/4games4arts-backend/handlers"
 )
 
 func main() {

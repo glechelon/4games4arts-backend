@@ -28,5 +28,5 @@ func init() {
 		postGroup.DELETE("/:id", handlers.DeletePost)
 	}
 
-	router.Run()
+	router.Run(":8081")
 }

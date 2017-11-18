@@ -2,4 +2,20 @@ language: go
 go:
 - tip
 before_install: go get "github.com/gin-gonic/gin" 
+deploy:
+  provider: gae
+  keyfile: "{
+  "type": "service_account",
+  "project_id": "games4arts-186418",
+  "private_key_id": "55c9f348529f72d817873738ed98dd1bc2d8119c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCsY/gi7y3aFqSG\nCSm+Se1BoCpNP91C5e/xIzMIFnE0lBDgs/Qf3fe4a8kmDNV1QVZMamN2/iE8nB3T\nX2f5eDJWg4sAGPnrntno8A7jK0c7HeLguq9xKIINFIEUsAg4zRjltTkWKxgi/lJJ\ntCEgqYWX0bbAtXvqJnmXN/Yah7uJv5iLl4X1FuQ2ojLqZF3QOO1HKrLuhRgQ1ohU\nhUhxsI2oO3S35ScAhxv3PG9+FNfVl8zSViOVyDp/FrOZzVq6hAaFlP6HD1SgYeVm\nGsm5Exl7Pk5136WzUJtn+McAIbd6o8QKaog141Npux+07KkdOWR+XC8FJWZTpzik\ndqU06ANNAgMBAAECggEAGiWqkf/lnD3Rc/wJTxGu8QR+Tgu4/2fZWiGM4LXos0Ef\nAzoANeIoq9n7XzBUow2HLZ14WyjF+UezlWcT4eiLeAhJKblgFM8Z/aUFmQqsKekJ\nS609JYRvn1TEFFNz18ux8ktnrndYWJxq9j9iQ+46c1HNbpLISfZOfHNyOklqlkSP\nudT3ey+2JlhKnNVkLWHiBf0mQXYCcIoeTtvn7mopJv9n/HRkg8bpjboPmpgJouQP\np5aJsS/6Cl9yADXbtqb+JzRUAdvixGiddDdcOlkeSfq6ZGi3/Qbk0v7UK+XtNlLA\no36grCeosnmk57SUYHpLOgZIC4mQL1DodIgycmu1GQKBgQDYDY/gMrPVCPTKC8I/\nWYnPc50EnayXa5yCSvviUUbPSdCGF9+cibKrY9vEEBH88v8qUxBTLg9A0O82P9ag\nvZWfGlt7jo5FecHN7XaI+XnQakSkTliESqkwUcaRF3Tloz2SP5t8+6pnyP2VZ0iw\n7yW909fGzYO7TwBRLsb08STEdQKBgQDMQ7sjNX7R22OJJiA97YRwNbxT6RBJuVhq\nxi2pnoisHJbbFNt0ERqZAXWp1d92mE3YJSRdjm7HaZ+g2WDXRRhCULfL9xwYI0lt\nTo06+wrtZJJoZRBbM1v+1u2Dpcbfkx0bIP5jV+8Mmi8Fd/lNhTrczImynlXPik/t\nIjAzcGWIeQKBgDRfvUP9Joj7HdQo25Ld0sF+Zk7rJh6i0JLpOHxZdY/kde87tFJP\nMwfHMkwqFSI7ic2pyyhO3xW4UHTXLuFSdAXYrtqZ6TVAWdHgwb5cs8HpMPCfqWeQ\nbckv2bHsfML6On/MeZXnsBxupcJlAkMaBg0pYIJp6Ygrk4kajNJt7prNAoGBAJES\nFYmXB7/hsZqJUmLJGsNa1qs9nozNrwb+QxXxex3JnDZyZL3VG+/JApkhRXkECF1X\nW7F6ZCEKWg2x9T5OW0FV9INOuExIW3DfVhyqiQM652RvSqOLIW4nlT5ncYv9/rDy\nyNkjbaqkonqez5eH5NtGBRGvtEAW+lbvbg5KaEH5AoGAdNAYOJ2BxpInh+ChTlyg\nZqNZ7ZcPB03+J5vDDdBUeq0zuioUaZH4sBLxn5AHs34/FqRpjiOx/mvFDV3G3U7w\nUsESwBP1k+fSmxhgcBeaCbFbi5xn2ORquZoX2Mp9Sq9VDOO+0vjgMwAZx53Qzqrk\nUaPzES41HOOqISlYwEH4nJ8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "glechelon@games4arts-186418.iam.gserviceaccount.com",
+  "client_id": "105228706607405833670",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/glechelon%40games4arts-186418.iam.gserviceaccount.com"
+}
+"
+  project: "games4arts-186418"
   

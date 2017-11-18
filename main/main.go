@@ -9,7 +9,7 @@ import (
 	"github.com/glechelon/4games4arts-backend/handlers"
 )
 
-func main() {
+func init() {
 
 	myPost := &data.Post{}
 	myPost.Id = "5"

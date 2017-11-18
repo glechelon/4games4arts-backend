@@ -30,3 +30,7 @@ func init() {
 
 	router.Run(":8081")
 }
+
+func main() {
+	init()
+}
